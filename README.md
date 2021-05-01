@@ -323,17 +323,17 @@ ___イタリック体&太字___
 
 > \[リンク](http://)
 >
-> \[Qiita]\(http://qiita.com)
+> \[GitHub]\(https://github.com)
 
 **結果**
 
 [リンク](http://)
 
-[Qiita](http://qiita.com)
+[GitHub](https://github.com)
 
 ## リンク(タイトル付き)
 
-リンクさせたいテキストを角括弧`[]`で囲み、リンク先のURLを丸括弧`()`で囲み、最後にURLの後にタイトルを記述しダブルクォーテーション`"`で囲むことでタイトル付きのリンクを表示させることができます。
+リンクさせたいテキストを角括弧`[]`で囲み、リンク先のURLとタイトルを記述し、タイトルをダブルクォーテーション`"`で囲み、最後にURLとタイトルを丸括弧`()`で囲むことでタイトル付きのリンクを表示させることができます。
 
 
 **記述例**
@@ -341,10 +341,10 @@ ___イタリック体&太字___
 
 > \[リンク](http:// "タイトル")
 >
-> \[Qiita]\(http://qiita.com "Qiita Home")
+> \[GitHub]\(https://github.com "GitHub")
 
 **結果**
 
 [リンク](http:// "タイトル")
 
-[Qiita](http://qiita.com "Qiita Home")
+[GitHub](https://github.com "GitHub")
