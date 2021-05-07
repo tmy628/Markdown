@@ -430,3 +430,24 @@ URLの後にタイトルを記述しダブルクォーテーション`"`で囲�
 | :--------- | :----------: | ----------: |
 | 左揃え     |   中央揃え   |      右揃え |
 | Left align | Center align | Right align |
+
+
+## Markdownの無効化
+
+バックスラッシュ`\`をMarkdownの前に挿入するとMarkdownを無効化することができます。
+
+**記述例**
+
+> \\# h1
+
+**結果**
+
+\# h1
+
+## 参考
+
+[Markdown記法チートシート](http://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+
+[Daring Fireball: Markdown Syntax Documentation](http://daringfireball.net/projects/markdown/syntax.php)
+
+[かわいいフリー素材集 いらすとや](https://www.irasutoya.com "かわいいフリー素材集 いらすとや")
