@@ -370,3 +370,31 @@ URLの後にタイトルを記述し、ダブルクォーテーション`"`で�
 [リンク](http:// "タイトル")
 
 [GitHub](https://github.com "GitHub")
+
+## 画像埋め込み
+
+まず、エクスクラメーションマーク`!`を挿入します。  
+次に、代替テキストを記述し、角括弧`[]`で囲みます。  
+最後に、画像のURLを丸括弧`()`で囲むとタイトル無しの画像を埋め込むことができます。  
+URLの後にタイトルを記述しダブルクォーテーション`"`で囲むと、タイトル付きの画像を埋め込むこともできます。  
+タイトルは、画像にマウスカーソルを合わせることで表示されます。
+
+**記述例**
+
+>
+\![野球のキャッチャーのイラスト（男性）]\(https://1.bp.blogspot.com/-Pb3gcri2oVk/XexrVWSq4pI/AAAAAAABWno/w0Mo2MmqFMw0CJB-c1Q1Z78-KTlKxT5PQCNcBGAsYHQ/s1600/sports_baseball_catcher_man.png)
+
+**結果**
+
+![野球のキャッチャーのイラスト（男性）](https://1.bp.blogspot.com/-Pb3gcri2oVk/XexrVWSq4pI/AAAAAAABWno/w0Mo2MmqFMw0CJB-c1Q1Z78-KTlKxT5PQCNcBGAsYHQ/s1600/sports_baseball_catcher_man.png)
+
+
+**記述例**
+
+>
+\![野球のキャッチャーのイラスト（男性）]\(https://1.bp.blogspot.com/-Pb3gcri2oVk/XexrVWSq4pI/AAAAAAABWno/w0Mo2MmqFMw0CJB-c1Q1Z78-KTlKxT5PQCNcBGAsYHQ/s1600/sports_baseball_catcher_man.png "野球のキャッチャーのイラスト（男性）")
+
+**結果**
+
+![野球のキャッチャーのイラスト（男性）](https://1.bp.blogspot.com/-Pb3gcri2oVk/XexrVWSq4pI/AAAAAAABWno/w0Mo2MmqFMw0CJB-c1Q1Z78-KTlKxT5PQCNcBGAsYHQ/s1600/sports_baseball_catcher_man.png "野球のキャッチャーのイラスト（男性）")
+
